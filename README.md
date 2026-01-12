@@ -22,21 +22,29 @@ The current concept is a fixed-wing aircraft without a traditional fuselage.
 Instead, carbon fiber tubes connect the wing to the tail section, keeping the
 structure lightweight, modular, and easy to iterate.
 
-### Front-Mounted Motor & Nose Section
+There will be no hull or fuselage structure behind the wing. The wing itself,
+together with the connecting structures, forms the primary load-bearing element
+of the aircraft.
 
-The motor is mounted at the **front of the wing**.  
-To enable this safely and cleanly, a dedicated **nose section** extends from the
-wing’s trailing edge to the leading edge.
+---
 
-This design has several advantages:
-- **Improved hand-launch safety**: hands remain completely outside the propeller
-  danger zone during launch.
-- **Flatter wing geometry**: no need to raise or offset the wing to clear the
-  propeller.
-- **Cleaner airflow** compared to elevated or pylon-mounted motors.
+## Front-Mounted Motor & Nose Section
 
-Overall, this is a more robust and pilot-friendly solution than mounting the
-motor above the wing.
+The motor is mounted at the **front of the wing**.
+
+To support this, a dedicated **nose section** is mounted directly to the
+**leading edge of the wing**. This nose section provides the structural mounting
+point for the motor and propeller.
+
+Key reasons for this approach:
+- **Improved hand-launch safety**, as hands remain outside the propeller danger
+  zone during launch
+- Enables a **relatively flat wing configuration** without requiring elevated
+  or offset motor mounts
+- Simplifies the overall geometry compared to pylon-mounted solutions
+
+The nose section exists only at the leading edge; behind it, the aircraft
+continues to have no fuselage or hull.
 
 ---
 
@@ -45,36 +53,34 @@ motor above the wing.
 ### Center Skid
 
 A **central skid** is integrated into the airframe:
-- Extends **5–6 cm below the underside of the wing**
+- Extends approximately **5–6 cm below the underside of the wing**
 - Designed to absorb ground contact during landing
 
-Purpose:
-- Allows landings on **rough or uneven terrain**
-- Protects the wing structure if one wing tip contacts the ground first
-- Reduces structural stress on the wing during imperfect landings
+Its purpose is to:
+- Allow landings on **rough or uneven terrain**
+- Protect the wing structure if one wing side contacts the ground first
+- Reduce the likelihood of structural damage during imperfect landings
 
-This skid effectively acts as a sacrificial and load-bearing element, improving
-durability without significant aerodynamic compromise.
+The skid acts as a protective and load-bearing element without significantly
+affecting the wing layout.
 
 ---
 
-## Control Surfaces
+## Control Surfaces & Stability
 
 The aircraft will feature:
 - Two ailerons for roll control
 - One elevator for pitch control
-- One or more rudders for yaw control
 
-### Rudder Mounting
+A **vertical stabilizer** will be added for directional stability.  
+It is currently **undecided whether this stabilizer will include a movable
+rudder**. This decision will depend on later aerodynamic testing and control
+requirements.
 
-The rudder(s) will be **mounted using bearings** to ensure:
-- Perfect alignment
-- Minimal play
-- Extremely smooth movement
-
-This is done deliberately to achieve a **high-quality, precise control feel**.
-No sloppy foam-hinge nonsense here — the goal is mechanical correctness and a
-premium flight experience.
+If a rudder is implemented, it will be mounted using **bearings** to ensure:
+- Accurate alignment
+- Low mechanical play
+- Smooth and repeatable movement
 
 ---
 
@@ -87,13 +93,12 @@ premium flight experience.
 | Weight                    | TBD   |
 | Wing Area to Weight Ratio | TBD   |
 
-> These values will be filled in once the geometry and target mass are finalized.
+> These values will be defined once the geometry and target mass are finalized.
 
 ---
 
 ## Status
 
 This airframe is under active development.  
-Expect frequent changes as design assumptions are validated (or disproven).
-
-Feedback, critique, and engineering nitpicks are always welcome.
+Design decisions may change as the project progresses and assumptions are
+validated through testing.
